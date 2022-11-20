@@ -11,5 +11,7 @@ test:
 format:
 	black *.py
 	
+deploy:
+	echo "deploy here mdfkr"
 
-all: install lint test format 
+all: install lint test format deploy
